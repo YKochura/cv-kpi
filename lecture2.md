@@ -200,6 +200,8 @@ to iterate $x$, the value of function $f(x)$  might decline.
 ???
 Gradient descent in one dimension is an excellent example to explain why the gradient descent algorithm may reduce the value of the objective function.
 
+The Taylor series is used to describe what the function looks like in the neighborhood of some poin $x$.
+
 That is, in first-order approximation $f(x + \varepsilon)$  is given by the function value $f(x)$ and the first derivative $f^{'}(x)$ at $x$. It is not unreasonable to assume that for small $\varepsilon$ moving in the direction of the negative gradient will decrease $f$. 
 
 Therefore, in gradient descent we first choose an initial value $x$ and a constant $\alpha > 0$ and then use them to continuously iterate $x$ until the stop condition is reached, for example, when the magnitude of the gradient $|f^{'}(x)|$ is small enough or the number of iterations has reached a certain value.
