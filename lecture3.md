@@ -31,6 +31,20 @@ Based on Prof. Gilles Louppe lecture
 ---
 
 
+class: middle
+
+# Model
+
+.center.width-50[![](figures/lec3/func.png)]
+
+.footnote[Credits: NVIDIA]
+
+???
+While what is inside of a deep neural network may be complex, at their core, they are
+simply functions. They take some input and generate some output. For example, an ML model for computer vision might be able to identify cars and pedestrians in a real-time video. Under the hood, a machine learning model is a mathematical representation of objects and their relationships to each other.
+
+---
+
 
 # Supervised learning
 
@@ -116,6 +130,9 @@ such that $\mathcal{L}(y, f(\mathbf{x})) \geq 0$ measures how close the predicti
 .kol-1-3[Regression:]
 .kol-2-3[$\mathcal{L}(y,f(\mathbf{x})) = (y - f(\mathbf{x}))^2$]
 ]
+
+???
+Empirical risk minimization (ERM) is a principle in statistical learning theory which defines a family of learning algorithms and is used to give theoretical bounds on their performance. The core idea is that we cannot know exactly how well an algorithm will work in practice (the true "risk") because we don't know the true distribution of data that the algorithm will work on, but we can instead measure its performance on a known set of training data (the "empirical" risk). 
 
 ---
 
@@ -285,9 +302,13 @@ count: false
 
 ---
 
+class: middle
+
 # Under-fitting and over-fitting
 
 What if we consider a hypothesis space $\mathcal{F}$ in which candidate functions $f$ are either too "simple" or too "complex" with respect to the true data generating process?
+
+.center.width-60[![](figures/lec3/fittings.jpg)]
 
 ---
 
