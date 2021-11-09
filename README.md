@@ -17,4 +17,5 @@ Lectures for Computer Vision, Igor Sikorsky Kyiv Polytechnic Institute,  Autumn 
 | October 26 | Lecture 3: [Statistical learning](https://ykochura.github.io/cv-kpi/?p=lecture3.md) [[PDF](https://ykochura.github.io/cv-kpi/pdf/lecture3.pdf)]| Assignment 2-3 [[PDF](https://ykochura.github.io/cv-kpi/homeworks/lab2-3/Assignment-2-3.pdf)] <br><br> Application: <br> Neural Style Transfer [[ipynb](https://github.com/YKochura/cv-kpi/blob/main/tutor/Neural_Style_Transfer/Neural_Style_Transfer.ipynb)]|
 | October 26 | Lecture 4: [What is a Neural Network?](https://www.3blue1brown.com/lessons/neural-networks)  [[video](https://www.youtube.com/watch?v=aircAruvnKk)]| |
 | November 2 | Lecture 5: [Training neural networks](https://ykochura.github.io/cv-kpi/?p=lecture5.md) [[PDF](https://ykochura.github.io/cv-kpi/pdf/lecture5.pdf)]|Assignment 4-5 [[PDF](https://ykochura.github.io/cv-kpi/homeworks/lab4-5/Assignment-4-5.pdf)] |
-| November 9 | Coming soon| |
+| November 9 | Lecture 6: [Computer vision](https://ykochura.github.io/cv-kpi/?p=lecture6.md) [[PDF](https://ykochura.github.io/cv-kpi/pdf/lecture6.pdf)]| [TensorFlow 2: quickstart for beginners](https://www.tensorflow.org/tutorials/quickstart/beginner)|
+ November 16 | Coming soon|  |
