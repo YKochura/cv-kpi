@@ -19,4 +19,5 @@ Lectures for Computer Vision, Igor Sikorsky Kyiv Polytechnic Institute,  Autumn 
 | November 2 | Lecture 5: [Training neural networks](https://ykochura.github.io/cv-kpi/?p=lecture5.md) [[PDF](https://ykochura.github.io/cv-kpi/pdf/lecture5.pdf)]|Assignment 4-5 [[PDF](https://ykochura.github.io/cv-kpi/homeworks/lab4-5/Assignment-4-5.pdf)] |
 | November 9 | Lecture 6: [Computer vision](https://ykochura.github.io/cv-kpi/?p=lecture6.md) [[PDF](https://ykochura.github.io/cv-kpi/pdf/lecture6.pdf)]| [TensorFlow 2: quickstart for beginners](https://www.tensorflow.org/tutorials/quickstart/beginner)|
 | November 23 | Lecture 7: [Evaluation Metrics for CV](https://ykochura.github.io/cv-kpi/?p=lecture7.md) [[PDF](https://ykochura.github.io/cv-kpi/pdf/lecture7.pdf)]|  |
+| November 23 | Lecture 8: [Gradient descent, how neural networks learn](https://www.3blue1brown.com/lessons/gradient-descent)  [[video](https://www.youtube.com/watch?v=IHZwWFHWa-w)]| Deep Learning Tutorial for Beginners [[ipynb](https://www.kaggle.com/kanncaa1/deep-learning-tutorial-for-beginners/notebook)] |
 | November 30 | Coming soon|  |
