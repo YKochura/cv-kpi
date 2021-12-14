@@ -561,7 +561,7 @@ class: middle, center
 
 # Demo
 
-.larger-x[[Image Preprocessing](https://github.com/YKochura/cv-kpi/blob/main/homeworks/lab2-3/Logistic_regression_solution.ipynb)]
+.larger-x[[CNN vs FCN](https://github.com/YKochura/cv-kpi/blob/main/tutor/cnn/convolutional_neural_networks.ipynb)]
 
 ---
 
