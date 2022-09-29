@@ -2,7 +2,7 @@ class: middle, center, title-slide
 
 # Computer Vision
 
-Autumn 2021
+Autumn 2022
 
 <br><br>
 Yuriy Kochura<br>
