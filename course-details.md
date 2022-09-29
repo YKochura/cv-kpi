@@ -41,7 +41,7 @@ This course will introduce you to deep learning approaches that are used in cutt
 
 # Classroom
 
-This quarter (Autumn 2021), the course takes place online (virtual in-class lectures) on .bold[*BigBlueButton*] at  [https://bbb.comsys.kpi.ua/b/yur-spb-qnl-jqk](https://bbb.comsys.kpi.ua/b/yur-spb-qnl-jqk)
+This semester the course takes place online (virtual in-class lectures) on .bold[*BigBlueButton*] at  [https://bbb.comsys.kpi.ua/b/yur-spb-qnl-jqk](https://bbb.comsys.kpi.ua/b/yur-spb-qnl-jqk)
 
 .center.width-90[![](figures/course-details/bbb.png)]
 
