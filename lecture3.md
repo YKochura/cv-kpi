@@ -82,6 +82,7 @@ Given $(\mathbf{x}\_i, y\_i) \in \mathcal{X}\times\mathcal{Y} =  \mathbb{R}^m \t
 we want to estimate for any new $\mathbf{x}$, $$\mathbb{E}\left[ Y|X=\mathbf{x} \right].$$
 
 ???
+Machine learning inference is the process of running data points into a machine learning model to calculate an output such as a single numerical score. This process is also referred to as “operationalizing a machine learning model” or “putting a machine learning model into production.”
 
 $\bigtriangleup^C$ is the simplex $\\{\mathbf{p} \in \mathbb{R}^C_+ : ||\mathbf{p}||_1 = 1\\}$.
 
@@ -94,6 +95,13 @@ class: middle, center
 Classification consists in identifying<br>
 a decision boundary between objects of distinct classes.
 
+???
+In classification, we want our model to look at features, e.g., the pixel values in an image, and then predict which category (sometimes called a class) among some discrete set of options, an example belongs. For handwritten digits, we might have ten classes, corresponding to the digits 0 through 9. The simplest form of classification is when there are only two classes, a problem which we call binary classification. For example, our dataset could consist of images of animals and our labels might be the classes {cat, dog, bird} . While in regression, we sought a regressor to output a numerical value, in classification, we seek a classifier, whose output is the predicted class assignment.
+
+Classification is the process of predicting the class of given data points. Classes are sometimes called as targets/ labels or categories. Classification predictive modeling is the task of approximating a mapping function (f) from input variables (X) to discrete output variables (y).
+
+Classes are the output category of your data. The labels on your data will point to one of the classes. Features: The characteristics that define your problem. These are also called attributes.
+
 ---
 
 class: middle, center
@@ -101,6 +109,13 @@ class: middle, center
 ![](figures/lec3/regression.png)
 
 Regression aims at estimating relationships among (usually continuous) variables.
+
+Example: [Predicting House Prices](https://towardsdatascience.com/predicting-house-prices-with-linear-regression-machine-learning-from-scratch-part-ii-47a0238aeac1)
+
+???
+A regression model determines a relationship between an independent variable and a dependent variable, by providing a function. Formulating a regression analysis helps you predict the effects of the independent variable on the dependent one. 
+
+Ex: Predicting House Prices for sales with Linear Regression. We might construct a table, where each row corresponds to a different house, and each column corresponds to some relevant attribute, such as the square footage of a house, the number of bedrooms, the number of bathrooms, and the number of minutes (walking) to the center of town.
 
 ---
 
@@ -132,7 +147,11 @@ such that $\mathcal{L}(y, f(\mathbf{x})) \geq 0$ measures how close the predicti
 ]
 
 ???
+For a CV problem, we will usually define a loss function first. Once we have the loss function, we can use an optimization algorithm in attempt to minimize the loss. In optimization, a loss function is often referred to as the objective function of the optimization problem. By tradition and convention most optimization algorithms are concerned with minimization. If we ever need to maximize an objective there is a simple solution: just flip the sign on the objective. 
+
 Empirical risk minimization (ERM) is a principle in statistical learning theory which defines a family of learning algorithms and is used to give theoretical bounds on their performance. The core idea is that we cannot know exactly how well an algorithm will work in practice (the true "risk") because we don't know the true distribution of data that the algorithm will work on, but we can instead measure its performance on a known set of training data (the "empirical" risk). 
+
+Squared error
 
 ---
 
