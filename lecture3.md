@@ -610,6 +610,14 @@ class: middle
 ---
 
 
+class: blue-slide, middle, center
+count: false
+
+.larger-xx[[Демо](https://github.com/YKochura/cv-kpi/blob/main/figures/code/lecture3_plots.ipynb)]
+
+---
+
+
 class: end-slide, center
 count: false
 
