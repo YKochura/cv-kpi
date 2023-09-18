@@ -2,7 +2,7 @@ class: middle, center, title-slide
 
 # Computer Vision
 
-Autumn 2022
+Autumn 2023 
 
 <br><br>
 Yuriy Kochura<br>
@@ -15,7 +15,7 @@ Yuriy Kochura<br>
 # Instructor
 
 Lectures and practices :
-- Yuriy Kochura 
+- .bold[Yuriy P. Kochura] 
   - Department of Computer Engineering, FICS 
 
 <br>
@@ -38,6 +38,25 @@ This course will introduce you to deep learning approaches that are used in cutt
 
 ---
 
+class: middle
+
+# Course Learning Outcomes
+
+
+1. Identify problems where computer vision techniques are applicable.
+1. Apply CV techniques for some classical problems.
+
+---
+
+class: middle
+
+# Prerequisites
+
+1. .bold[Mathematics]: Knowledge of and ability to use calculus, analytical geometry, linear algebra and probability theory.
+1. .bold[Programming]: Ability to program in Python.
+
+---
+
 
 # Classroom
 
@@ -49,22 +68,20 @@ This semester the course takes place online (virtual in-class lectures) on .bold
 
 class: middle 
 
-# Schedule & Slides
+# Course hub
 
-The schedule and slides are available at [https://github.com/YKochura/cv-kpi](https://github.com/YKochura/cv-kpi)
+All important information about the course will available on the course web page [https://courses-cs-kpi.github.io/cv-23fall/](https://courses-cs-kpi.github.io/cv-23fall/)
 
-Lecture materials:
+- Slides and materials
+- Homeworks
 
-- In HTML and in PDFs
-- Posted/updated online the day before the lesson (**hopefully**)
-
-.center.width-80[![](figures/course-details/github.png)]
+.center.width-75[![](figures/course-details/webpage.png)]
 
 ---
 
 class: middle
 
-# Textbook
+# Textbooks
 
  There is no required textbook for this class, but I would like to recommend some books for a more comprehensive introduction with advanced topics in deep learning and computer vision or get another perspective on the lecture material:
 
@@ -87,19 +104,30 @@ class: middle
 
 ---
 
-
 class: middle
 
-# Discussion
+# Announcements & Discussions
 
-All course announcements will take place on Telegram (see invitation link in emails)
+.smaller-x[All *announcements* and *discussions* will take place in Telegram (let me know if you need to be added)
 
-- Ask your questions offline in the group.
+- Discuss materials and ask your questions offline in the group.
 - Don't be shy!
+]
 
+.grid[
+.kol-1-2[
+.center.width-100[![](figures/course-details/telegram-с.png)]
+.center.smaller-x[Announcement]
+]
+
+.kol-1-2[
 .center.width-70[![](figures/course-details/telegram.png)]
+.center.smaller-x[Discussions]
+]
+]
 
 ---
+
 
 class: middle
 
@@ -109,24 +137,16 @@ Exercises to get you started with deep learning techniques for computer vision t
 
 ---
 
-class: middle
-
-## Project
-
-Project of your choosing. Details to be announced soon. 
-
----
 
 class: middle
 
 # Grading
 
-- 30%  &nbsp;&emsp; Programming assignments (5% each)
-- 40%  &nbsp;&emsp; Project
-- 30%  &nbsp;&emsp; Final exam
+- 60%  &nbsp;&emsp; Programming assignments (15% each)
+- 40%  &nbsp;&emsp; Graded test
 
-**Note!** Requisition of admission to semester control (final exam):<br>
-$$\boxed{\text{Programming assignments} + \text{Project} \geq 42\%}$$
+**Note!**  The requisition of admission to semester control (Graded test) is<br>
+$$\boxed{\text{Programming assignments} \geq 36\%}$$
 
 ---
 
@@ -134,3 +154,4 @@ class: end-slide, center
 count: false
 
 .larger-xx[Let's start!]
+
