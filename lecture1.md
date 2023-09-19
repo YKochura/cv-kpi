@@ -201,6 +201,11 @@ class: middle
 
 .footnote[Credits: [Andrew Ng: Artificial Intelligence is the New Electricity](https://www.youtube.com/watch?v=21EiKfQYZXc), 2017.]
 
+???
+Dr. Andrew Ng is a globally recognized leader in AI (Artificial Intelligence). He is Founder of DeepLearning.AI, Founder & CEO of Landing AI, General Partner at AI Fund, Chairman and Co-Founder of Coursera and an Adjunct Professor at Stanford University’s Computer Science Department.
+
+As a pioneer in machine learning and online education, Dr. Ng has changed countless lives through his work in AI, and has authored or co-authored over 200 research papers in machine learning, robotics and related fields. In 2013, he was named to the Time 100 list of the most influential persons in the world.
+
 ---
 
 class: blue-slide, middle, center
@@ -354,6 +359,9 @@ class: middle
 
 .footnote[Credits: [Chris Bishop on "The Real AI Revolution" NeurIPS 2020](https://www.ml6.eu/knowhow/ml6-at-neurips-2020)]
 
+???
+Christopher Bishop is a British computer scientist. He is a Microsoft Technical Fellow and Director of Microsoft Research AI4Science. He is also Honorary Professor of Computer Science at the University of Edinburgh, and a Fellow of Darwin College, Cambridge. Chris was a founding member of the UK AI Council, and in 2019 he was appointed to the Prime Minister’s Council for Science and Technology. 
+
 ---
 
 class: middle 
@@ -391,13 +399,6 @@ Reinforcement learning (Mnih et al, 2014)
 
 ---
 
-class: middle, center, black-slide
-
-<iframe width="600" height="450" src="https://www.youtube.com/embed/HcZ48JDamyk" frameborder="0" allowfullscreen></iframe>
-
-Strategy games (Deepmind, 2016-2018)
-
----
 
 class: middle, center, black-slide
 
@@ -482,9 +483,33 @@ Dali Lives (2019)
 
 class: middle, center, black-slide
 
+<iframe width="600" height="450" src="https://www.youtube.com/embed/qTgPSKKjfVg" frameborder="0" allowfullscreen></iframe>
+
+Image generation and AI art (OpenAI, 2022)
+
+---
+
+class: middle, center, black-slide
+
 <iframe width="600" height="450" src="https://www.youtube.com/embed/J_2fIGmsoRg" frameborder="0" allowfullscreen></iframe>
 
 Reface revived the famous Kyiv murals for Kyiv Day (2021)
+
+---
+
+class: middle, center, black-slide
+
+<iframe width="600" height="450" src="https://www.youtube.com/embed/Zm9B-DvwOgw" frameborder="0" allowfullscreen></iframe>
+
+Write computer code (OpenAI, 2021)
+
+---
+
+class: middle, center, black-slide
+
+.center.width-100[![](figures/lec1/ChatGPT.png)]
+
+Answer all your questions (OpenAI, 2022)
 
 ---
 
