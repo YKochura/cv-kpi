@@ -2,7 +2,7 @@ class: middle, center, title-slide
 
 # Computer Vision
 
-Autumn 2023 
+Autumn 2024 
 
 <br><br>
 Yuriy Kochura<br>
@@ -60,7 +60,7 @@ class: middle
 
 # Classroom
 
-This semester the course takes place online (virtual in-class lectures) on .bold[*BigBlueButton*] at  [https://bbb.comsys.kpi.ua/b/yur-spb-qnl-jqk](https://bbb.comsys.kpi.ua/b/yur-spb-qnl-jqk)
+This semester the course takes place online (virtual in-class lectures) on .bold[*BigBlueButton*] at  [https://bbb.ugrid.org/b/yur-spb-qnl-jqk](https://bbb.ugrid.org/b/yur-spb-qnl-jqk)
 
 .center.width-90[![](figures/course-details/bbb.png)]
 
@@ -70,7 +70,7 @@ class: middle
 
 # Course hub
 
-All important information about the course will available on the course web page [https://courses-cs-kpi.github.io/cv-23fall/](https://courses-cs-kpi.github.io/cv-23fall/)
+All important information about the course will available on the course web page [https://courses-cs-kpi.github.io/cv-24fall/](https://courses-cs-kpi.github.io/cv-24fall/)
 
 - Slides and materials
 - Homeworks
@@ -114,17 +114,10 @@ class: middle
 - Don't be shy!
 ]
 
-.grid[
-.kol-1-2[
-.center.width-100[![](figures/course-details/telegram-с.png)]
-.center.smaller-x[Announcement]
-]
 
-.kol-1-2[
 .center.width-70[![](figures/course-details/telegram.png)]
-.center.smaller-x[Discussions]
-]
-]
+.center.smaller-x[Discussions&Announcements]
+
 
 ---
 
