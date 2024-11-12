@@ -2,7 +2,7 @@ class: middle, center, title-slide
 
 # Computer Vision
 
-Lecture 9: Computer vision pipeline
+Lecture 8: Computer vision pipeline
 
 <br><br>
 Yuriy Kochura<br>
