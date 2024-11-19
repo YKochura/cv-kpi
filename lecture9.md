@@ -2,7 +2,7 @@ class: middle, center, title-slide
 
 # Computer Vision
 
-Lecture 10-11: Convolutional Neural Networks 
+Lecture 9: Convolutional Neural Networks 
 
 <br><br>
 Yuriy Kochura<br>
@@ -26,7 +26,7 @@ class: middle
 # The computer vision pipeline
 ## Last time
 
-.center.width-100[![](figures/lec9/cvPipline2.png)]
+.center.width-100[![](figures/lec8/cvPipline2.png)]
 
 .footnote[Credits: Mohamed Elgendy. Deep Learning for Vision Systems, 2020.]
 
@@ -59,7 +59,7 @@ class: middle
 
 # MNIST sample digits
 
-.center.width-100[![](figures/lec10/mnist-samples.png)]
+.center.width-100[![](figures/lec9/mnist-samples.png)]
 
 .success[**Note!** In machine learning, a category in a classification problem is called a
 *class*. Data points are called *samples*. The class associated with a specific sample
@@ -81,7 +81,7 @@ class: middle
 
 # Loading the MNIST dataset in Keras
 
-.center.width-100[![](figures/lec10/load-mnist-keras.png)]
+.center.width-100[![](figures/lec9/load-mnist-keras.png)]
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
 
@@ -97,7 +97,7 @@ class: middle
 
 # Train and Test data
 
-.center.width-80[![](figures/lec10/train-test-data.png)]
+.center.width-80[![](figures/lec9/train-test-data.png)]
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
 
@@ -111,7 +111,7 @@ class: middle
 
 # The network architecture
 
-.center.width-90[![](figures/lec10/dense-net-arch.png)]
+.center.width-90[![](figures/lec9/dense-net-arch.png)]
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
 
@@ -147,7 +147,7 @@ class: middle
 
 # The compilation step
 
-.center.width-90[![](figures/lec10/dense-model-compile.png)]
+.center.width-90[![](figures/lec9/dense-model-compile.png)]
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
 
@@ -158,7 +158,7 @@ class: middle
 
 # Preparing the image data
 
-.center.width-90[![](figures/lec10/image-preparation.png)]
+.center.width-90[![](figures/lec9/image-preparation.png)]
 
 Previously, our training images were stored in an array of shape $(60000, 28, 28)$ of type uint8 with values in the $[0, 255]$ interval. We’ll transform it into a float32 array of shape $(60000, 28*28)$ with values between 0 and 1.
 
@@ -175,7 +175,7 @@ class: middle
 
 # “Fitting” the model
 
-.center.width-100[![](figures/lec10/fiting.png)]
+.center.width-100[![](figures/lec9/fiting.png)]
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
 
@@ -188,7 +188,7 @@ class: middle
 
 # Using the model to make predictions
 
-.center.width-100[![](figures/lec10/testing-model.png)]
+.center.width-100[![](figures/lec9/testing-model.png)]
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
 
@@ -199,7 +199,7 @@ Each number of index *i* in that array corresponds to the probability that digit
 class: middle
 
 
-.center.width-100[![](figures/lec10/test-example.png)]
+.center.width-100[![](figures/lec9/test-example.png)]
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
 
@@ -212,7 +212,7 @@ class: middle
 
 # Evaluating the model on new data
 
-.center.width-100[![](figures/lec10/evaluate-model.png)]
+.center.width-100[![](figures/lec9/evaluate-model.png)]
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
 
@@ -240,7 +240,7 @@ class: middle
 
 # Instantiating a small convnet
 
-.center.width-100[![](figures/lec10/small-convnet.png)]
+.center.width-100[![](figures/lec9/small-convnet.png)]
 
 .smaller-xx[Importantly, a convnet takes as input tensors of shape *(image_height, image_width, image_channels)*, not including the batch dimension. In this case, we’ll configure the convnet to process inputs of size $(28, 28, 1)$, which is the format of MNIST images.]
 
@@ -257,7 +257,7 @@ class: middle
 
 # Displaying the model’s summary
 
-.center.width-90[![](figures/lec10/model-summary.png)]
+.center.width-90[![](figures/lec9/model-summary.png)]
 
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
@@ -275,7 +275,7 @@ class: middle
 
 # Training the convnet on MNIST images
 
-.center.width-90[![](figures/lec10/training-convnet.png)]
+.center.width-90[![](figures/lec9/training-convnet.png)]
 
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
@@ -290,7 +290,7 @@ class: middle
 
 # Evaluating the convnet
 
-.center.width-90[![](figures/lec10/eval-convnet.png)]
+.center.width-90[![](figures/lec9/eval-convnet.png)]
 
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
@@ -307,7 +307,7 @@ class: middle
 
 # The convolution operation
 
-.center.width-50[![](figures/lec10/im.png)]
+.center.width-50[![](figures/lec9/im.png)]
 
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
@@ -341,7 +341,7 @@ class: middle
 
 # The convolution operation
 
-.center.width-80[![](figures/lec10/cat.png)]
+.center.width-80[![](figures/lec9/cat.png)]
 
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
@@ -360,7 +360,7 @@ class: middle
 
 ## The concept of a response map: a 2D map of the presence of a pattern at different locations in an input
 
-.center.width-80[![](figures/lec10/responce-map.png)]
+.center.width-80[![](figures/lec9/responce-map.png)]
 
 .smaller-xx[In the MNIST example, the first convolution layer takes a feature map of size $(28, 28, 1)$ and outputs a feature map of size $(26, 26, 32)$: it computes 32 filters over its input. Each of these 32 output channels contains a 26 × 26 grid of values, which is a response map of the filter over the input, indicating the response of that filter pattern at different locations in the input (see figure above).]
 
@@ -416,7 +416,7 @@ class: middle
 .smaller-xx[For instance, with 3×3 windows, the vector $output[i, j, :]$ comes from the 3D patch $input[i-1:i+1,
 j-1:j+1, :]$. The full process is detailed in figure below.]
 
-.center.width-55[![](figures/lec10/how_convolution_works.png)]
+.center.width-55[![](figures/lec9/how_convolution_works.png)]
 
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
@@ -439,7 +439,7 @@ class: middle
 ## Valid locations of 3×3 patches in a 5×5 input feature map
 
 
-.center.width-90[![](figures/lec10/3x3_patches_in_5x5_input.png)]
+.center.width-90[![](figures/lec9/3x3_patches_in_5x5_input.png)]
 
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
@@ -456,7 +456,7 @@ class: middle
 ## Padding a 5×5 input in order to be able to extract 25 3×3 patches
 
 
-.center.width-90[![](figures/lec10/padding_of_5x5_input.png)]
+.center.width-90[![](figures/lec9/padding_of_5x5_input.png)]
 
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
@@ -476,7 +476,7 @@ class: middle
 ## 3×3 convolution patches with 2×2 strides
 
 
-.center.width-90[![](figures/lec10/strides.png)]
+.center.width-90[![](figures/lec9/strides.png)]
 
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]
@@ -526,7 +526,7 @@ class: middle
 
 
 
-.center.width-80[![](figures/lec10/conv-without-maxpolling.png)]
+.center.width-80[![](figures/lec9/conv-without-maxpolling.png)]
 
 
 .footnote[Credits: François Chollet. Deep Learning with Python, 2021.]

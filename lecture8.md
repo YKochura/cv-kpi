@@ -36,7 +36,7 @@ class: middle
 
 # Computer vision system
 
-.center.width-100[![](figures/lec9/cvSystem.png)]
+.center.width-100[![](figures/lec8/cvSystem.png)]
 
 .footnote[Credits: Mohamed Elgendy. Deep Learning for Vision Systems, 2020.]
 
@@ -53,7 +53,7 @@ class: middle
 
 # The computer vision pipeline
 
-.center.width-100[![](figures/lec9/cvPipline.png)]
+.center.width-100[![](figures/lec8/cvPipline.png)]
 
 .footnote[Credits: Mohamed Elgendy. Deep Learning for Vision Systems, 2020.]
 
@@ -69,7 +69,7 @@ class: middle
 # The computer vision pipeline
 ## Today
 
-.center.width-100[![](figures/lec9/cvPipline2.png)]
+.center.width-100[![](figures/lec8/cvPipline2.png)]
 
 .footnote[Credits: Mohamed Elgendy. Deep Learning for Vision Systems, 2020.]
 
@@ -80,7 +80,7 @@ class: middle
 
 # The computer vision pipeline
 
-.center.width-100[![](figures/lec9/piplineInAction.png)]
+.center.width-100[![](figures/lec8/piplineInAction.png)]
 
 .alert[*Definition.* An **image classifier** is an algorithm that takes in an image as input and outputs a label or “class” that identifies that image. A **class** (also called a category) in machine learning is the output category of your data.]
 
@@ -120,7 +120,7 @@ class: middle
 
 # Image as functions
 
-.center.width-100[![](figures/lec9/input.png)]
+.center.width-100[![](figures/lec8/input.png)]
 
 .footnote[Credits: Mohamed Elgendy. Deep Learning for Vision Systems, 2020.]
 
@@ -141,8 +141,8 @@ class: middle
 ## Example 1
 
 .grid.center[
-.kol-1-2.center[.width-100[![](figures/lec9/im.png)]]
-.kol-1-2[.width-100[![](figures/lec9/HowMachineSeesImage.png)]]
+.kol-1-2.center[.width-100[![](figures/lec8/im.png)]]
+.kol-1-2[.width-100[![](figures/lec8/HowMachineSeesImage.png)]]
 ]
 
 .grid[
@@ -163,7 +163,7 @@ class: middle
 # How do computers see images?
 ## Example 2
 
-.center.width-100[![](figures/lec9/im2.png)]
+.center.width-100[![](figures/lec8/im2.png)]
 
 .footnote[Credits: Mohamed Elgendy. Deep Learning for Vision Systems, 2020.]
 
@@ -176,9 +176,9 @@ class: middle
 
 # Color images
 
-.center.width-100[![](figures/lec9/rgbim.png)]
+.center.width-100[![](figures/lec8/rgbim.png)]
 
-.width-50[![](figures/lec9/rgb.png)]
+.width-50[![](figures/lec8/rgb.png)]
 
 .footnote[Credits: Mohamed Elgendy. Deep Learning for Vision Systems, 2020.]
 
@@ -194,7 +194,7 @@ class: middle
 
 # Summary
 
-.center.width-100[![](figures/lec9/see.png)]
+.center.width-100[![](figures/lec8/see.png)]
 
 
 .footnote[Credits: Mohamed Elgendy. Deep Learning for Vision Systems, 2020.]
@@ -215,7 +215,7 @@ class: middle
 
 ## Image preprocessing: Converting color images to grayscale
 
-.center.width-100[![](figures/lec9/Image-preprocessing.png)]
+.center.width-100[![](figures/lec8/Image-preprocessing.png)]
 
 
 .footnote[Credits: Mohamed Elgendy. Deep Learning for Vision Systems, 2020.]
@@ -234,7 +234,7 @@ Converting color images to grayscale to reduce computation complexity. Sometimes
 class: middle
 
 
-.center.width-90[![](figures/lec9/rgbImp.png)]
+.center.width-90[![](figures/lec8/rgbImp.png)]
 
 
 .footnote[Credits: Mohamed Elgendy. Deep Learning for Vision Systems, 2020.]
@@ -261,7 +261,7 @@ class: middle
 
 ## Image preprocessing: Data augmentation
 
-.center.width-80[![](figures/lec9/Data-augmentation.png)]
+.center.width-80[![](figures/lec8/Data-augmentation.png)]
 
 
 .footnote[Credits: Mohamed Elgendy. Deep Learning for Vision Systems, 2020.]
@@ -298,7 +298,7 @@ class: middle
 
 ## What is a feature in computer vision?
 
-.center.width-80[![](figures/lec9/Feature-extraction.png)]
+.center.width-80[![](figures/lec8/Feature-extraction.png)]
 
 .smaller-x[Example input image fed to a feature-extraction algorithm to find patterns within the image and create the feature vector]
 
@@ -317,7 +317,7 @@ class: middle
 
 ## Feature generalizability
 
-.center.width-90[![](figures/lec9/Feature-generalizability.png)]
+.center.width-90[![](figures/lec8/Feature-generalizability.png)]
 
 
 .footnote[Credits: Mohamed Elgendy. Deep Learning for Vision Systems, 2020.]
@@ -334,7 +334,7 @@ class: middle
 
 ## Extracting features: handcrafted
 
-.center.width-90[![](figures/lec9/mlFeature.png)]
+.center.width-90[![](figures/lec8/mlFeature.png)]
 
 .smaller-x[Traditional machine learning algorithms require handcrafted feature extraction]
 
@@ -351,7 +351,7 @@ class: middle
 
 ## Extracting features: automatic extracting
 
-.center.width-90[![](figures/lec9/dlFeature.png)]
+.center.width-90[![](figures/lec8/dlFeature.png)]
 
 .smaller-x[A deep neural network passes the input image through its layers to automatically extract features and classify the object. No handcrafted features are needed]
 
@@ -367,7 +367,7 @@ class: middle
 
 ## Extracting features: automatic extracting
 
-.center.width-90[![](figures/lec9/dlf.png)]
+.center.width-90[![](figures/lec8/dlf.png)]
 
 .smaller-x[Extracting and consolidating features from thousands of images in one feature vector to be fed to the classifier]
 
